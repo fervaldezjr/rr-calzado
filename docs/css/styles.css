@@ -272,7 +272,7 @@ h1 {
         width: 100vw;
         height: 100vh;
         position: absolute;
-        background-color: #000000;
+        background-color: #ca130d;
         left: 0;
         top: 0;
         padding: auto auto;
@@ -303,3 +303,57 @@ h1 {
     }
 }
 
+@media (max-width: 600px){
+    h1 {
+        font-size: 4em;
+    }
+
+    .servicios-container-grid {
+        grid-template-columns: auto auto;   
+        margin: 0; 
+    }
+    
+    .servicios-cards i {
+        font-size: 3.4em;
+    }
+
+    .servicios-cards p {
+        margin: 0;
+        padding-top: 0.3em;
+    }
+
+    iframe {
+        width: 100%;
+        padding-bottom: 1em;
+    }
+
+    .donde-estamos {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .contacto-card {
+        margin: 0.5em;
+    }
+}
+
+@media (max-width: 400px){
+    .btn-pricipal {
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        margin: 1em;
+    }
+
+    .btn-pricipal a {
+        padding: .7em;
+        margin: 1em;
+    }
+}
